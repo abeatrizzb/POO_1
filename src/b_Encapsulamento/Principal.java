@@ -7,7 +7,7 @@ public class Principal {
 		Pessoa p = new Pessoa();
 		
 		p.setNome("Ana");
-		p.setIdade(10);
+		p.setIdade(19);
 	
 		System.out.println(p.getNome() + ": " + p.getIdade());
 	}

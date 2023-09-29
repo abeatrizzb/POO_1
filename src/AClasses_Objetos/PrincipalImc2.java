@@ -21,9 +21,8 @@ public class PrincipalImc2 {
 			}
 			
 			if(op==2) {
-				String result = "Pessoas cadastradas\n";
-				for(Pessoa p: pessoas) { 
-					
+				String result = "Pessoas cadastradas:\n";
+				for(Pessoa p: pessoas) { 	
 					result += p.exibirDados();	
 				}
 				JOptionPane.showMessageDialog(null, result);

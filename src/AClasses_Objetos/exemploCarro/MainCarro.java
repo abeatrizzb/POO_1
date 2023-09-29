@@ -39,7 +39,7 @@ public class MainCarro {
 		}while(op!=5);
 	}
 	
-	static void buscaPorPeriodo(ArrayList<Carro> lista) {
+	static void buscaPorPeriodo(ArrayList<Carro> lista) { 
 		int anoI = Integer.parseInt(JOptionPane.showInputDialog("Ano Inicial:"));
 		int anoF = Integer.parseInt(JOptionPane.showInputDialog("Ano Final:"));
 		String dados = "";
