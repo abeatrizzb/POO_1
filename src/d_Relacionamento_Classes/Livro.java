@@ -9,6 +9,11 @@ public class Livro {
 	private Bibliotecario bibliotecario;
 	private String nome;
 	
+	public void cadastraLivro(Autor autor, Bibliotecario bibliotecario) {
+		this.autor = autor;
+		this.bibliotecario = bibliotecario;
+	}
+	
 	public void emprestar(String nome) {
 		this.nome = nome;
 		String mensagem = nome + ", você pegou este livro emprestado!";

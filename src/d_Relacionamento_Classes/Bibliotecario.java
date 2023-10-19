@@ -8,8 +8,10 @@ public class Bibliotecario {
 	private Livro livro;
 	ArrayList<Livro> livros = new ArrayList<>();
 	
-	public void cadastraLivro(String titulo, String autor) {		
+	public void cadastraLivro(String t, Autor a) {		
 		Livro l = new Livro();
+		l.setAutor(a);
+		l.setTitulo(t);
 		livros.add(l);
 	}
 	
